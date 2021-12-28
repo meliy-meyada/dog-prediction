@@ -2,12 +2,11 @@
 import numpy as np
 import streamlit as st
 import cv2
-import tensorflow as tf
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 
 #กำลังโหลดโมเดล
-model =  tf.load_model('dog_breed.h5')
+model =  load_model('dog_breed.h5')
 
 #ชื่อคลาส
 CLASS_NAMES = ['Scottish Deerhound','Maltese Dog','Bernese Mountain Dog']
