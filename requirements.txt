@@ -1,4 +1,5 @@
-Keras==2.4.3
+keras==2.6.0
 opencv-python-headless==4.5.4.60
 numpy==1.18.5
 streamlit==0.71.0
+tensorflow==2.5.0
